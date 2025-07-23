@@ -1,39 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kuliner Indonesia</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <section class="bg-white lg:grid lg:h-screen lg:place-content-center dark:bg-gray-900">
-  <div class="mx-auto w-screen max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
-    <div class="mx-auto max-w-prose text-center">
-      <h1 class="text-4xl font-bold text-gray-900 sm:text-5xl dark:text-white">
-        How to be
-        <strong class="text-indigo-600"> FullStack </strong>
-        conversions
-      </h1>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page Sekolah</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
 
-      <div class="mt-4 flex justify-center gap-4 sm:mt-6">
-        <a
-          class="inline-block rounded border border-indigo-600 bg-indigo-600 px-5 py-3 font-medium text-white shadow-sm transition-colors hover:bg-indigo-700"
-          href="#"
-        >
-          Get Started
-        </a>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">SekolahKu</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#pelajaran">Pelajaran</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <a
-          class="inline-block rounded border border-gray-200 px-5 py-3 font-medium text-gray-700 shadow-sm transition-colors hover:bg-gray-50 hover:text-gray-900 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 dark:hover:text-white"
-          href="#"
-        >
-          Learn More
-        </a>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Selamat Datang di SekolahKu!</h1>
+      <p>Mari belajar bersama dengan semangat dan keceriaan.</p>
+    </div>
+  </section>
+
+  <!-- Content Pelajaran -->
+  <section id="pelajaran" class="content">
+    <h2>Pelajaran Unggulan</h2>
+    <div class="pelajaran-list">
+      <div class="card">
+        <div class="icon">➕</div>
+        <h3>Matematika</h3>
+        <p>Melatih logika, hitungan, dan pemecahan masalah sehari-hari.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Bahasa Indonesia</h3>
+        <p>Mengembangkan kemampuan membaca, menulis, dan berbicara dengan baik.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔬</div>
+        <h3>IPA</h3>
+        <p>Belajar tentang alam, tubuh manusia, dan teknologi di sekitar kita.</p>
       </div>
     </div>
-  </div>
-</section>
-  </body>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 SekolahKu. Semua hak dilindungi.</p>
+  </footer>
+
+</body>
 </html>
