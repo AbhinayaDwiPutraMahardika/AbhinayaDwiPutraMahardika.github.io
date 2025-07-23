@@ -1,0 +1,15 @@
+*{
+    margin: 0cm;
+}
+
+.nav{
+    display: flex;
+   text-align: left; 
+   background-color: rgb(110, 52, 25);
+   padding-bottom: 0px;
+}
+
+.nav img{
+    height: 30px;
+    margin-right: 20px;
+}
